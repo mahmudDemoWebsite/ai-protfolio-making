@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional portfolio of a Full Stack Web Developer specializing in modern web development.">
+    <title>Sakib | Full Stack Web Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo"><span>&lt;/&gt;</span>Sakib</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+                <a href="assets/Personal information bhumika.pdf" class="btn btn-gradient btn-small" download>
+                    <i class="fa-solid fa-download"></i> Download CV
+                </a>
+
+                <button class="theme-toggle" id="themeToggle" aria-label="Switch color theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <span class="eyebrow">HELLO, I'M</span>
+
+                    <h1>Abdullah <span class="gradient-text"> Sakib</span></h1>
+
+                    <h2>Professional <span class="blue-text">Web Developer</span></h2>
+
+                    <p>
+                        I build modern, responsive and user-friendly websites with clean
+                        code and creative design. Passionate about technology and always
+                        eager to learn new things.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-gradient">
+                            <i class="fa-regular fa-paper-plane"></i> Hire Me
+                        </a>
+                        <a href="assets/Personal information bhumika.pdf" class="btn btn-outline" download>
+                            <i class="fa-solid fa-download"></i> Download CV
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <div class="hero-shape"></div>
+
+                    <img class="hero-image" src="assets/profile.png" alt="Developer portrait placeholder">
+
+                    <div class="code-note">
+                        <span>Code</span>
+                        <span>Build</span>
+                        <span>Create</span>
+                        <div class="note-underline"></div>
+                    </div>
+
+                    <div class="floating-code">&lt;/&gt;</div>
+                    <div class="floating-star star-one">✳</div>
+                    <div class="floating-star star-two">✧</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about-section" id="about">
+            <div class="container about-grid">
+                <div class="about-photo reveal">
+                    <div class="photo-background"></div>
+                    <img src="assets/profile.png" alt="Developer profile placeholder">
+                </div>
+
+                <div class="about-content reveal">
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+
+                    <p>
+                        I'm a passionate web developer with a strong interest in creating
+                        dynamic and user-friendly web applications. I love turning ideas
+                        into reality using modern web technologies. Currently, I'm
+                        improving my skills and building projects that make a real impact.
+                    </p>
+
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fa-solid fa-user"></i>
+                            <div><strong>Name</strong><span>Abdullah Sakib</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div><strong>Location</strong><span>Dhaka, Bangladesh</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div><strong>Email</strong><span>sakib@gmail.com</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-highlights reveal">
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div>
+                            <h3>Education</h3>
+                            <p>B.Sc. in Computer Science<br>(Dhaka University)</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fa-solid fa-bullseye"></i></div>
+                        <div>
+                            <h3>Career Goal</h3>
+                            <p>Become a Full Stack Developer and work on innovative projects.</p>
+                        </div>
+                    </div>
+
+                    <div class="highlight-item">
+                        <div class="highlight-icon"><i class="fa-solid fa-heart"></i></div>
+                        <div>
+                            <h3>Interests</h3>
+                            <p>Coding, Travelling, Gaming, Technology, Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills-section" id="skills">
+            <div class="container skills-layout">
+                <div class="skills-intro reveal">
+                    <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+                    <p>
+                        I have good knowledge and hands-on experience in modern web
+                        technologies and tools.
+                    </p>
+                    <a href="#projects" class="btn btn-blue">Explore My Projects</a>
+                </div>
+
+                <div class="skills-grid reveal">
+                    <div class="skill-item">
+                        <div class="skill-icon html-icon">5</div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>HTML</strong><span>70%</span></div>
+                            <div class="progress"><span data-width="70%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon bootstrap-icon">B</div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>Bootstrap</strong><span>85%</span></div>
+                            <div class="progress"><span data-width="85%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon css-icon">3</div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>CSS</strong><span>90%</span></div>
+                            <div class="progress"><span data-width="90%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon tailwind-icon"><i class="fa-solid fa-wind"></i></div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>Tailwind CSS</strong><span>80%</span></div>
+                            <div class="progress"><span data-width="80%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon js-icon">JS</div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>JavaScript</strong><span>85%</span></div>
+                            <div class="progress"><span data-width="85%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon node-icon"><i class="fa-brands fa-node-js"></i></div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>Node.js</strong><span>75%</span></div>
+                            <div class="progress"><span data-width="75%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon react-icon"><i class="fa-brands fa-react"></i></div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>React</strong><span>80%</span></div>
+                            <div class="progress"><span data-width="80%"></span></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon git-icon"><i class="fa-brands fa-git-alt"></i></div>
+                        <div class="skill-details">
+                            <div class="skill-heading"><strong>Git & GitHub</strong><span>85%</span></div>
+                            <div class="progress"><span data-width="85%"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+                        <p>Some of my recent works. Feel free to explore and check out the source code.</p>
+                    </div>
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="view-all">View All
+                        Projects <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=80"
+                            alt="E-commerce project preview">
+                        <div class="project-body">
+                            <h3>E-Commerce Website</h3>
+                            <p>A modern e-commerce platform with payment integration and an admin panel.</p>
+                            <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                            <div class="project-actions">
+                                <a href="https://sayedul-islam.github.io/portfolio/" class="btn btn-blue">Live Demo <i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/mahmudDemoWebsite/invovera.git" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-light">View Code <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=700&q=80"
+                            alt="Task management project preview">
+                        <div class="project-body">
+                            <h3>Task Management App</h3>
+                            <p>A simple and effective task management app with CRUD functionality.</p>
+                            <div class="tags"><span>React</span><span>Firebase</span><span>Tailwind CSS</span></div>
+                            <div class="project-actions">
+                                <a href="#contact" class="btn btn-blue">Live Demo <i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-light">View Code <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=700&q=80"
+                            alt="Portfolio project preview">
+                        <div class="project-body">
+                            <h3>Portfolio Website</h3>
+                            <p>A personal portfolio with modern design and smooth animations.</p>
+                            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                            <div class="project-actions">
+                                <a href="#home" class="btn btn-blue">Live Demo <i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-light">View Code <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=700&q=80"
+                            alt="Blog website project preview">
+                        <div class="project-body">
+                            <h3>Blog Website</h3>
+                            <p>A clean blog website with search and category features.</p>
+                            <div class="tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+                            <div class="project-actions">
+                                <a href="#contact" class="btn btn-blue">Live Demo <i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-light">View Code <i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Experience -->
+        <section class="section journey-section" id="experience">
+            <div class="container journey-grid">
+                <div class="journey-column reveal">
+                    <h2 class="journey-title"><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-date">2020 - 2024</span>
+                            <h3>B.Sc. in Computer Science & Engineering</h3>
+                            <p>Dhaka University</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-date">2018 - 2020</span>
+                            <h3>Higher Secondary Certificate (HSC)</h3>
+                            <p>Notre Dame College, Dhaka</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-date">2016 - 2018</span>
+                            <h3>Secondary School Certificate (SSC)</h3>
+                            <p>Government High School, Dhaka</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="journey-column reveal">
+                    <h2 class="journey-title"><i class="fa-solid fa-briefcase"></i> Experience</h2>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-date">2024 - Present</span>
+                            <h3>Frontend Developer (Freelance)</h3>
+                            <p>Building responsive websites for clients.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-date">2023 - 2024</span>
+                            <h3>Intern - Web Developer</h3>
+                            <p>Learning and building real-world web projects.</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>Web Development (Learning & Practice)</h3>
+                            <p>Self-learning and personal projects.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <blockquote class="quote-card reveal">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>"The best way to predict your future is to create it."</p>
+                    <cite>— Peter Drucker</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <div>
+                        <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+                        <p>I provide high-quality web solutions to help grow your business.</p>
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card reveal">
+                        <div class="service-icon service-blue"><i class="fa-solid fa-code"></i></div>
+                        <h3>Web Development</h3>
+                        <p>Modern and responsive websites built for your needs.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon service-purple"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h3>UI/UX Design</h3>
+                        <p>Clean and user-friendly interfaces for better experiences.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon service-cyan"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Website Maintenance</h3>
+                        <p>Updates, bug fixes, security and performance support.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon service-pink"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                        <h3>SEO Optimization</h3>
+                        <p>Improve your website's structure and search visibility.</p>
+                    </article>
+                    <article class="service-card reveal">
+                        <div class="service-icon service-orange"><i class="fa-solid fa-comments"></i></div>
+                        <h3>Consultation</h3>
+                        <p>Technical guidance and support for your next project.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact">
+            <div class="contact-decoration contact-decoration-one"></div>
+            <div class="contact-decoration contact-decoration-two"></div>
+
+            <div class="container contact-grid">
+                <div class="contact-info reveal">
+                    <h2>Get In <span class="gradient-text">Touch</span></h2>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities. Feel free to reach
+                        out!</p>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div><strong>Email</strong><a href="mailto:anni@gmail.com">anni@gmail.com</a></div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div><strong>Phone</strong><a href="tel:+8801712345678">+880 1712 345678</a></div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div><strong>Location</strong><span>Dhaka, Bangladesh</span></div>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input id="name" name="name" type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input id="email" name="email" type="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select subject</option>
+                            <option>Web Development</option>
+                            <option>UI/UX Design</option>
+                            <option>Website Maintenance</option>
+                            <option>Freelance Opportunity</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Type your message..."
+                            required></textarea>
+                    </div>
+
+                    <button class="btn btn-gradient submit-btn" type="submit">
+                        <i class="fa-regular fa-paper-plane"></i> Send Message
+                    </button>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+
+                <div class="follow-area reveal">
+                    <h3>Follow Me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="handwritten">Let's<br>Work Together <span>↗</span></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo"><span>&lt;/&gt;</span> DevAnni</a>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p>© <span id="currentYear"></span> Anni Rahman. All rights reserved.</p>
+            <a href="#home" class="back-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
